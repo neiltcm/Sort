@@ -1,0 +1,45 @@
+html, body, p, div, span, h1, h2, h3, ul, li, a
+{
+	margin: 0;
+	padding: 0;
+}
+
+#container
+{		
+	width: 1000px;		
+	margin: 30px auto;
+}
+
+#graph
+{		
+	position: relative;
+	margin: 0px auto;
+	width: 800px;
+	height: 375px;
+	border-bottom: 1px solid black;
+}
+
+#wrapper
+{
+	position: absolute;
+	width: 100%;
+	bottom: 0;	
+	height: auto;		
+}
+
+.bar 
+{	
+	position: relative;
+	display: inline-block;
+	background: rgb(200, 200, 200);	
+	vertical-align: bottom;	
+	margin: 0 2px 0 2px;
+	max-width: 20px;
+	border-top-right-radius: 2px;
+	border-top-left-radius: 2px;
+}
+
+#control
+{
+	margin: 20px;	
+}
